@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    //la id debe ser la misma de mi navegacion
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/pub"
+            android:title="Home" />
+        <item
+            android:id="@+id/teamFragment"
+            android:icon="@drawable/adventure1"
+            android:title="Equipo" />
+        <item
+            android:id="@+id/galleryFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galeria" />
+        <item
+            android:id="@+id/contactFragment"
+            android:icon="@drawable/wizard"
+            android:title="Contacto" />
+    </group>
+</menu>

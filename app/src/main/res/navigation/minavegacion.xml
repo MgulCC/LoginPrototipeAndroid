@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/minavegacion"
+    app:startDestination="@id/homeFragment">
+
+    //la id debe ser la misma de mi menu deslizante
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.proyecto_android.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.example.proyecto_android.fragments.TeamFragment"
+        android:label="Equipo"
+        tools:layout="@layout/fragment_team"/>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.proyecto_android.fragments.GalleryFragment"
+        android:label="Galeria"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.proyecto_android.fragments.ContactFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contact"/>
+</navigation>
